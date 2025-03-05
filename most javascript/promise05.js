@@ -12,7 +12,8 @@ async function fetchMultipleUrls(urls) {
 }
 
 
-fetchMultipleUrls(["https://jsonplaceholder.typicode.com/posts", "https://jsonplaceholder.typicode.com/comments"])
+fetchMultipleUrls(["https://jsonplaceholder.typicode.com/posts",
+                     "https://jsonplaceholder.typicode.com/comments"])
     .then( (data) => {
         console.log(data);
     })
